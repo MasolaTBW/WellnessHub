@@ -1,0 +1,29 @@
+{
+  "name": "wellnesshub",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write --experimental-cli src/"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
+    "vue": "^3.5.27",
+    "vue-router": "^5.0.1",
+    "vuetify": "^3.11.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "prettier": "3.8.1",
+    "vite": "^7.3.1",
+    "vite-plugin-vue-devtools": "^8.0.5"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
